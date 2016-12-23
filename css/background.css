@@ -210,6 +210,11 @@ fieldset[disabled] .btn-xl.active {
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
+
+  .rules {
+    padding: 10px 0 !important;
+
+  }
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
@@ -274,6 +279,10 @@ header .intro-text .intro-heading {
 }
 section {
   padding: 100px 0;
+}
+
+#faqs section{
+  padding: 40px 0;
 }
 section h2.section-heading {
   font-size: 40px;
