@@ -1,0 +1,11 @@
+[
+  {"id": 1, "question": "When is it?", "answer": "HackNEU 2017 will take place on 11-12 February 2017."},
+  {"id": 2, "question": "How much does it cost?", "answer": "HackNEU is completely free for Graduate and PHD students of Northeastern University and includes free food, drinks, swag and prizes. You will get chance to get technical mentors from our Corporate sponsors."},
+  {"id": 3, "question": "What should I bring?", "answer": "All you need is your student ID, a laptop+charger, and any hardware you want to hack on - we will publish list of hardware we can manage for you if you will ask for it and we will try our best to arrange it for you! :D"},
+  {"id": 4, "question": "Who can come?", "answer": "HuskyHacks this semester is open to any Graduates+PhD at Northeastern University. You can let us know if you want your friends from other universities to participate by sending an email to us on here (We can not promise anything right now)."},
+  {"id": 5, "question": "Do I have to know how to code?", "answer": "Absolutely not! A hackathon is the perfect place and time to learn. There will be mentors available to ease you through your first hackathon experience."},
+  {"id": 6, "question": "How do teams work?", "answer": "Teams can be up to 4 people. All teammates must register individually. (...)"},
+  {"id": 7, "question": "Will there be hardware?", "answer": "We are working to secure hardware, and participants are welcome to bring their own hardware to hack on."},
+  {"id": 8, "question": "What can I win?", "answer": "Awesome prizes and more stuff you will be amazed by - more details *coming soon*"},
+  {"id": 9, "question": "Will we be allowed to hack on existing projects or work from home during the hackathon?", "answer": "No and no. This is obviously difficult to enforce, so please have respect for other competitors and follow these rules on an honor code basis. (...)"}
+    ]
