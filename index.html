@@ -438,14 +438,26 @@
 
     <section ng-app="hacks" ng-controller="hacksController" id="faqs">
         <div class="container">
-            <div class="col-lg-12 text-center">
+            <div class="text-center">
                 <h2 class="section-heading">FAQs</h2>
             </div>
 
+            <br/>
             <span ng-repeat="x in rules">
-                <h4>{{x.question}}</h4>
-                <h6>{{x.answer}}</h6><br/><br/>
-            </span>
+            <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{$index}}">
+        {{x.question}}</a>
+      </h4>
+    </div>
+    <div id="collapse{{$index}}" class="panel-collapse collapse">
+      <div class="panel-body">{{x.answer}}</div>
+    </div>
+  </div>
+  </div>
+  </span>
 
         </div>
 
