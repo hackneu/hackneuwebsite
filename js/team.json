@@ -1,0 +1,18 @@
+[
+  {"id": 1, "name": "Avanti Patil", 
+   "image": "img/team/1.jpg",
+   "position": "Founder and Director@HackNEU",
+   "linkedin": "https://www.linkedin.com/in/avantipatil", 
+   "twitter": "https://twitter.com/ItsAvanti", 
+   "email": "mailto:patil.av@husky.neu.edu", 
+   "github": "https://patilav.github.io"},
+  {"id": 2, "name": "Nuhiya", 
+   "image": "img/team/1.jpg",
+   "position": "Founder and Director@HackNEU",
+   "linkedin": "https://www.linkedin.com/in/avantipatil", 
+   "twitter": "https://twitter.com/ItsAvanti", 
+   "email": "mailto:patil.av@husky.neu.edu", 
+   "github": "https://patilav.github.io"},
+
+
+    ]

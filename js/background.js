@@ -32,14 +32,16 @@ $('#mainNav').affix({
 var nuhacksmodule = angular.module('hacks', []);
 
 nuhacksmodule.controller('hacksController',function ($http, $q, $scope) {
-
+    $scope.teamdata = [];
     $scope.rules = [];
-
     var faqjson = $http.get('js/faq.json');
-
     $q.all([faqjson]).then(function(faqs){
         console.log("In here!");
         $scope.rules = faqs[0].data;
     });
-
+    var teamjson = $http.get('js/team.json');
+    $q.all([teamjson]).then(function(team){
+        console.log("In here too!");
+        $scope.teamjson = team[0].data;
+    });
 });
