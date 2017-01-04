@@ -7,12 +7,19 @@
    "email": "mailto:patil.av@husky.neu.edu", 
    "github": "https://patilav.github.io"},
   {"id": 2, "name": "Nuhiya", 
-   "image": "img/team/1.jpg",
+   "image": "img/team/2.jpg",
    "position": "Founder and Director@HackNEU",
    "linkedin": "https://www.linkedin.com/in/avantipatil", 
    "twitter": "https://twitter.com/ItsAvanti", 
    "email": "mailto:patil.av@husky.neu.edu", 
    "github": "https://patilav.github.io"},
+ {"id": 3, "name": "Sanjay Murali",
+  "image": "img/team/3.jpg",
+  "position": "Director of Web@HackNEU",
+  "linkedin": "https://www.linkedin.com/in/sanjaymurali",
+  "twitter": "https://twitter.com/sanjayrao08",
+  "email": "mailto:murali.s@husky.neu.edu",
+  "github": "https://github.com/sanjay6002"}
 
 
     ]
