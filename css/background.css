@@ -822,3 +822,10 @@ body {
     transform: rotateZ(60deg) translate(1em, -9em);
   }
 }
+
+.item{
+  margin-top: 30px;
+}
+.item img{
+  padding-right: 50px;
+}
