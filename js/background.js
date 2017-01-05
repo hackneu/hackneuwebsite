@@ -29,11 +29,14 @@ var nuhacksmodule = angular.module('hacks', []);
 nuhacksmodule.controller('hacksController',function ($http, $q, $scope) {
     $scope.teamdata = [];
     $scope.rules = [];
+    $scope.sponsors = [];
     var faqjson = $http.get('js/faq.json');
     var teamjson = $http.get('js/team.json');
-    $q.all([faqjson,teamjson]).then(function(allpromises){
+    var sponsorsjson = $http.get('js/sponsors.json');
+    $q.all([faqjson,teamjson,sponsorsjson]).then(function(allpromises){
         $scope.rules = allpromises[0].data;
         $scope.teamdata = allpromises[1].data;
+        $scope.sponsors = allpromises[2].data;
     });
 
 

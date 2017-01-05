@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "image": "img/sponsors/idea.png",
+    "name": "idea",
+    "url": "http://www.northeastern.edu/idea/"
+  },
+  {
+    "id": 2,
+    "image": "img/sponsors/nugwc.png",
+    "name": "NUGWC",
+    "url": "http://nugwc.ccs.neu.edu/"
+  }
+
+]

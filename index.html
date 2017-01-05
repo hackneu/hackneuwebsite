@@ -261,14 +261,10 @@
             <div class="item">
                 <div class="row">
 
-                    <div class="col-md-4">
-                        <a href="#"><img src="img/sponsors/idea.png" width="100%"> </a>
+                    <div ng-repeat="x in sponsors" class="col-md-4">
+                        <a href="{{x.url}}" target="_blank"><img ng-src="{{x.image}}" width="100%"> </a>
                     </div>
-                    <div class="col-md-4">
-                        <a href="#"><img src="img/sponsors/nugwc.png" width="100%"> </a>
-                    </div>
-
-                </div>
+                                    </div>
             </div>
                     <!--<div class="item">
                         <div class="row">
