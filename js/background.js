@@ -32,7 +32,6 @@ nuhacksmodule.controller('hacksController',function ($http, $q, $scope) {
     var faqjson = $http.get('js/faq.json');
     var teamjson = $http.get('js/team.json');
     $q.all([faqjson,teamjson]).then(function(allpromises){
-
         $scope.rules = allpromises[0].data;
         $scope.teamdata = allpromises[1].data;
     });
