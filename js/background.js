@@ -45,7 +45,7 @@ nuhacksmodule.controller('hacksController',function ($http, $q, $scope) {
 $(window).load(function() {
     "use strict";
     $(".loader").delay(500).fadeOut();
-    $("#mask").delay(1000).fadeOut("slow");
+    $("#mask").delay(500).fadeOut("slow");
 
     $(function() {
         var fr = new FilmRoll({
