@@ -1,25 +1,26 @@
 [
   {"id": 1, "name": "Avanti Patil", 
    "image": "img/team/1.jpg",
-   "position": "Founder and Director@HackNEU",
+   "position": "Founder and Director @ HackNEU",
    "linkedin": "https://www.linkedin.com/in/avantipatil", 
    "twitter": "https://twitter.com/ItsAvanti", 
    "email": "mailto:patil.av@husky.neu.edu", 
-   "github": "https://patilav.github.io"},
-  {"id": 2, "name": "Nuhiya", 
+   "github": "https://github.com/patilav",
+   "portfolio": "https://patilav.github.io"},
+  {"id": 2, "name": "Nuhiya Rafeeq", 
    "image": "img/team/2.jpg",
-   "position": "Founder and Director@HackNEU",
-   "linkedin": "https://www.linkedin.com/in/avantipatil", 
-   "twitter": "https://twitter.com/ItsAvanti", 
-   "email": "mailto:patil.av@husky.neu.edu", 
-   "github": "https://patilav.github.io"},
+   "position": "Director of Operations @ HackNEU",
+   "linkedin": "https://www.linkedin.com/in/nuhiyarafeeq", 
+   "twitter": "https://twitter.com/nuhiya", 
+   "email": "mailto:mailto:rafeeq.n@husky.neu.edu", 
+   "github": "http://github.com/nuhiyarafeeq",
+   "portfolio": "https://www.linkedin.com/in/nuhiyarafeeq"},
  {"id": 3, "name": "Sanjay Murali",
   "image": "img/team/3.jpg",
-  "position": "Director of Web@HackNEU",
+  "position": "Director of Web @ HackNEU",
   "linkedin": "https://www.linkedin.com/in/sanjaymurali",
   "twitter": "https://twitter.com/sanjayrao08",
   "email": "mailto:murali.s@husky.neu.edu",
-  "github": "https://github.com/sanjay6002"}
-
-
-    ]
+  "github": "https://github.com/sanjay6002",
+  "portfolio": "https://www.linkedin.com/in/sanjaymurali"}
+]
