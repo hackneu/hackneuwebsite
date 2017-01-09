@@ -556,8 +556,8 @@ section h3.section-subheading {
     position: relative;
     margin-left: 25%;
     width: 100%;
-    Max-width: 640px;
-    padding-bottom: 30px;
+    Max-width: 1000px;
+    padding-bottom: 20px;
     display: inline-block;
     text-align: center;
   }
@@ -568,7 +568,7 @@ section h3.section-subheading {
 }
 .team-member img {
   margin: 0 auto;
-  border: 7px solid white;
+  border: 10px solid white;
 }
 .team-member h4 {
   margin-top: 25px;

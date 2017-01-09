@@ -22,5 +22,14 @@
   "twitter": "https://twitter.com/sanjayrao08",
   "email": "mailto:murali.s@husky.neu.edu",
   "github": "https://github.com/sanjay6002",
-  "portfolio": "https://www.linkedin.com/in/sanjaymurali"}
+  "portfolio": "https://www.linkedin.com/in/sanjaymurali"},
+ {"id": 4, "name": "Connie Ferreira",
+  "image": "img/team/4.jpg",
+  "position": "Director of Sponsorships",
+  "linkedin": "https://www.linkedin.com/in/constance-tura-ferreira-16b949114",
+  "twitter": "#",
+  "email": "mailto:c.ferreira@northeastern.edu",
+  "github": "#",
+  "portfolio": "http://www.ccis.northeastern.edu/people/constance-ferreira/"}
+    
 ]
