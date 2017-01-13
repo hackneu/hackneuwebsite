@@ -8,8 +8,7 @@
    "github": "https://github.com/patilav",
    "portfolio": "https://patilav.github.io",
    "judge": false,
-   "tech_mentor": false
-},
+   "tech_mentor": false},
   {"id": 2, "name": "Nuhiya Rafeeq", 
    "image": "img/team/2.jpg",
    "position": "Director of Operations @ HackNEU",
@@ -89,5 +88,15 @@
   "github": "#",
   "portfolio": "#",
   "judge": false,
-  "tech_mentor": true}  
+  "tech_mentor": true},
+  {"id": 10, "name": "John Dufresne",
+  "image": "img/team/10.jpg",
+  "position": "Event coordinator @ HackNEU",
+  "linkedin": "https://www.linkedin.com/in/mrjohndufresne",
+  "twitter": "#",
+  "email": "mailto:John.M.Dufresne@gmail.com",
+  "github": "#",
+  "portfolio": "#",
+  "judge": false,
+  "tech_mentor": false}  
 ]

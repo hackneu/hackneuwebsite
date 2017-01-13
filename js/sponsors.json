@@ -10,6 +10,12 @@
     "image": "img/sponsors/nugwc.png",
     "name": "NUGWC",
     "url": "http://nugwc.ccs.neu.edu/"
+  },
+  {
+    "id": 3,
+    "image": "img/sponsors/hdhi.png",
+    "name": "Health Innovators",
+    "url": "http://www.healthinno.org/"
   }
 
 ]
