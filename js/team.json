@@ -98,5 +98,19 @@
   "github": "#",
   "portfolio": "#",
   "judge": false,
-  "tech_mentor": false}  
+  "tech_mentor": false},
+  
+  {"id": 11, "name": "Dr. Jolanda G. Tromp",
+  "image": "img/team/11.jpg",
+  "position": "AR/VR Design tech speaker",
+  "linkedin": "https://www.linkedin.com/in/jolanda-tromp-phd-socialvr-638b84a",
+  "twitter": "http://twitter.com/jolandatromp",
+  "email": "mailto:jolanda.tromp@oswego.edu",
+  "github": "https://github.com/jolandata",
+  "portfolio": "www.musicmonk.com/drtromp/cv/",
+  "judge1": false,
+  "tech_mentor1": true}
+  
+  
+
 ]

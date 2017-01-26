@@ -1,21 +1,46 @@
+
 [
   {
     "id": 1,
     "image": "img/sponsors/idea.png",
     "name": "idea",
-    "url": "http://www.northeastern.edu/idea/"
+    "url": "http://www.northeastern.edu/idea/",
+    "type": 1
   },
   {
     "id": 2,
     "image": "img/sponsors/nugwc.png",
     "name": "NUGWC",
-    "url": "http://nugwc.ccs.neu.edu/"
+    "url": "http://nugwc.ccs.neu.edu/",
+    "type": 1
   },
   {
     "id": 3,
     "image": "img/sponsors/hdhi.png",
     "name": "Health Innovators",
-    "url": "http://www.healthinno.org/"
+    "url": "http://www.healthinno.org/",
+    "type": 2
+  },
+  {
+    "id": 4,
+    "image": "img/sponsors/gea.jpg",
+    "name": "GE Aviation",
+    "url": "http://www.geaviation.com/",
+    "type": 3
+  },
+  {
+    "id": 5,
+    "image": "img/sponsors/google.png",
+    "name": "Google",
+    "url": "https://www.google.com/",
+    "type": 3
+  },
+  {
+    "id": 6,
+    "image": "img/sponsors/coho.png",
+    "name": "Coho Events",
+    "url": "https://cohoevents.com/",
+    "type": 4
   }
 
 ]
