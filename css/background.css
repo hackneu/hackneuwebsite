@@ -834,3 +834,9 @@ body {
 .item img{
   padding-right: 50px;
 }
+
+#hackneu-twitter{
+  height: 600px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
