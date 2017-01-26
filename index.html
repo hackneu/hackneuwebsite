@@ -259,34 +259,7 @@
                 <h4 class="text-center"><i>More sponsor details coming soon! </i></h4>
             </div>
 
-            <h2 class="section-subheading text-center">Student Empowerment Sponsor</h2>
-            <div class="item">
-                <div class="row">
-                    <div ng-repeat="x in sponsors" ng-if="x.type==1" class="col-md-4 col-md-offset-4">
-                    
-                        <a href="{{x.url}}" target="_blank">
-                            <img ng-src="{{x.image}}" width="100%"> 
-                        </a>
-                    
-                    </div>
-                </div>
-            </div>
-
-            <h2 class="section-subheading text-center">Non-Profit Sponsor</h2>
-            <div class="item">
-                <div class="row">
-                    <div ng-repeat="x in sponsors" ng-if="x.type==2"  class="col-md-3 col-md-offset-5">
-                    
-                        <a href="{{x.url}}" target="_blank">
-                            <img ng-src="{{x.image}}" width="100%"> 
-                        </a>
-                    
-                    </div>
-                </div>
-            </div>
-
-
-<!--
+            <!--
 <h2 class="section-subheading text-center">Corporate Sponsors</h2>
             <div class="item">
                 <div class="row">
@@ -300,8 +273,20 @@
                 </div>
             </div>
             -->
+<h2 class="section-subheading text-center">Non-Profit Sponsors</h2>
+            <div class="item">
+                <div class="row">
+                    <div ng-repeat="x in sponsors" ng-if="x.type==2"  class="col-md-3 col-md-offset-5">
+                    
+                        <a href="{{x.url}}" target="_blank">
+                            <img ng-src="{{x.image}}" width="100%"> 
+                        </a>
+                    
+                    </div>
+                </div>
+            </div>
 
-                    <h2 class="section-subheading text-center">Alumni/AE Sponsors</h2>
+                              <h2 class="section-subheading text-center">Alumni/AE Sponsors</h2>
             <div class="item">
                 <div class="row">
                     <div ng-repeat="x in sponsors" ng-if="x.type==4" class="col-md-2 col-md-offset-5">
@@ -313,8 +298,21 @@
                     </div>
                 </div>
             </div>
-            
-            
+
+
+            <h2 class="section-subheading text-center">Student Empowerment Sponsors</h2>
+            <div class="item">
+                <div class="row">
+                    <div ng-repeat="x in sponsors" ng-if="x.type==1" class="col-md-4 col-md-offset-4">
+                    
+                        <a href="{{x.url}}" target="_blank">
+                            <img ng-src="{{x.image}}" width="100%"> 
+                        </a>
+                    
+                    </div>
+                </div>
+            </div>
+
             
         </div>
 
