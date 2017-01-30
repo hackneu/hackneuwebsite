@@ -41,6 +41,13 @@
     "name": "Coho Events",
     "url": "https://cohoevents.com/",
     "type": 4
+  },
+  {
+    "id": 7,
+    "image": "img/sponsors/bostonar.jpg",
+    "name": "BostonAR",
+    "url": "https://www.meetup.com/bostonarmeetup/",
+    "type": 2
   }
 
 ]
