@@ -21,14 +21,7 @@
     "url": "http://www.healthinno.org/",
     "type": 2
   },
-  {
-    "id": 4,
-    "image": "img/sponsors/gea.jpg",
-    "name": "GE Aviation",
-    "url": "http://www.geaviation.com/",
-    "type": 3
-  },
-  {
+   {
     "id": 5,
     "image": "img/sponsors/google.png",
     "name": "Google",
