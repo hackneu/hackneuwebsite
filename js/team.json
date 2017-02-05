@@ -98,6 +98,16 @@
   "github": "#",
   "portfolio": "#",
   "judge": false,
+  "tech_mentor": false},
+   {"id": 11, "name": "Jay Padhya",
+  "image": "img/team/10.jpeg",
+  "position": "Hardware Lead @ HackNEU",
+  "linkedin": "https://www.linkedin.com/in/jaykashyappadhya",
+  "twitter": "https://twitter.com/jaypadhya16",
+  "email": "mailto: padhya.j@husky.neu.edu",
+  "github": "https://github.com/jaypadhya",
+  "portfolio": "https://www.linkedin.com/in/jaykashyappadhya",
+  "judge": false,
   "tech_mentor": false}
 
   
