@@ -108,6 +108,16 @@
   "github": "https://github.com/jaypadhya",
   "portfolio": "https://www.linkedin.com/in/jaykashyappadhya",
   "judge": false,
+  "tech_mentor": false},
+  {"id": 12, "name": "Rohan Jahagirdar",
+  "image": "img/team/12.jpeg",
+  "position": "Technical Mentor for Android @ HackNEU",
+  "linkedin": "https://www.linkedin.com/in/rohan-jahagirdar",
+  "twitter": "#",
+  "email": "mailto: Jahagirdar.ro@husky.NEU.edu",
+  "github": "https://github.com/RohanJahagirdar",
+  "portfolio": "http://www.rohanjahagirdar.me",
+  "judge": false,
   "tech_mentor": false}
 
   
