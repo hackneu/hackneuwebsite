@@ -41,6 +41,13 @@
     "name": "BostonAR",
     "url": "https://www.meetup.com/BostonAR/",
     "type": 2
+  },
+  {
+    "id": 8,
+    "image": "img/sponsors/sensationalfoods.png",
+    "name": "Sensational Foods Catering",
+    "url": "http://www.sensationalfoods.com/",
+    "type": 5
   }
 
 ]
