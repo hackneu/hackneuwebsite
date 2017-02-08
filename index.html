@@ -417,7 +417,7 @@
                 <div class="team-container">
 
             <div class="row">
-                <div ng-repeat="x in teamdata" ng-if="!x.judge && !x.tech_mentor" class="col-md-4 member-container hvr-grow">
+                <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && !x.positions[1] && !x.positions[2]" class="col-md-4 member-container hvr-grow">
                     <a href="{{x.portfolio}}" target="_blank">
                     <img ng-src="{{x.image}}" class="img-circle">
                     </a>
@@ -445,7 +445,7 @@
                 </div>
             <div class="team-container">
             <div class="row">
-                <div ng-repeat="x in teamdata" ng-if="x.judge && !x.tech_mentor" class="col-md-4 member-container hvr-grow">
+                <div ng-repeat="x in teamdata" ng-if="x.positions[0] && !x.positions[1] && !x.positions[2]" class="col-md-4 member-container hvr-grow">
                     <a href="{{x.portfolio}}" target="_blank">
                     <img ng-src="{{x.image}}" class="img-circle">
                     </a>
@@ -473,7 +473,36 @@
                 </div>
             <div class="team-container">
             <div class="row">
-                <div ng-repeat="x in teamdata" ng-if="!x.judge && x.tech_mentor" class="col-md-4 member-container hvr-grow">
+                <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && !x.positions[2]" class="col-md-4 member-container hvr-grow">
+                    <a href="{{x.portfolio}}" target="_blank">
+                    <img ng-src="{{x.image}}" class="img-circle">
+                    </a>
+                    <div>
+                        <label class="text-tech">{{x.name}}</label><br/>
+                        <label class="title"><i>{{x.position}}</i></label><br/>
+                        <a href="{{x.email}}" target="_blank">
+                            <i class="fa fa-envelope fa-lg" aria-hidden="true" fa-lg> </i>
+                        </a>
+                        <a href="{{x.twitter}}" target="_blank">
+                            <i class="fa fa-twitter fa-lg" aria-hidden="true" fa-lg> </i>
+                        </a>
+                        <a href="{{x.linkedin}}" target="_blank">
+                            <i class="fa fa-linkedin fa-lg" aria-hidden="true" fa-lg> </i>
+                        </a>
+                        <a href="{{x.github}}" target="_blank">
+                            <i class="fa fa-github fa-lg" aria-hidden="true" fa-lg></i>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+                    <div class="text-center">
+                    <h2 class="section-heading">Technical Mentor/Speaker</h2>
+                </div>
+            <div class="team-container">
+            <div class="row">
+                <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && !x.positions[1] && x.positions[2]" class="col-md-4 member-container hvr-grow">
                     <a href="{{x.portfolio}}" target="_blank">
                     <img ng-src="{{x.image}}" class="img-circle">
                     </a>
