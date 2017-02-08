@@ -469,7 +469,7 @@
                 </div>
             </div>
             <div class="text-center">
-                    <h2 class="section-heading">Technical Mentors</h2>
+                    <h2 class="section-heading">Technical Mentors/Speaker</h2>
                 </div>
             <div class="team-container">
             <div class="row">
@@ -494,14 +494,7 @@
                         </a>
                     </div>
                 </div>
-                </div>
-            </div>
-                                <div class="text-center">
-                    <h2 class="section-heading">Technical Mentor/Speaker</h2>
-                </div>
-            <div class="team-container">
-            <div class="row">
-                <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && !x.positions[1] && x.positions[2]" class="col-md-4 member-container hvr-grow">
+                                <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && x.positions[2]" class="col-md-4 member-container hvr-grow">
                     <a href="{{x.portfolio}}" target="_blank">
                     <img ng-src="{{x.image}}" class="img-circle">
                     </a>
@@ -523,7 +516,8 @@
                     </div>
                 </div>
                 </div>
-        </div>
+            </div>
+
 
             </div>
         </div>

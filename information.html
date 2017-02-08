@@ -27,7 +27,7 @@
     <link href="css/background.css" rel="stylesheet">
 
 </head>
-<body>
+<body ng-app="hacks">
 
 <!-- Nav bar -->
 <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -183,6 +183,51 @@
 
     </div>
 </span>
+</section>
+
+<section ng-controller="hacksController">
+    <div class="container">
+    <div class="text-center">
+        <h2>Technical mentors</h2>
+    </div>
+
+
+    <div class="person_display" ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && !x.positions[2]">
+        <div class="row">
+            <div class="col-md-3">
+                <img ng-src="{{x.image}}" alt="{{x.position}}"
+                                                     title="{{x.position}}" width="180" height="300">
+            </div>
+            <div class="col-md-9">
+                <a href="{{x.portfolio}}" >{{x.name}}</a>
+                <br/>
+                <span >Slack: ({{x.name}})</span>
+                <br/>
+                <span >Available Timings: 10AM - 8PM</span>
+                <br/>
+                <br/>
+                <span >Description Here!</span>
+            </div>
+        </div>
+</div>
+    <div class="person_display" ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && x.positions[2]">
+        <div class="row">
+            <div class="col-md-3">
+                <img ng-src="{{x.image}}" alt="{{x.position}}"
+                                                     title="{{x.position}}" width="180" height="300">
+            </div>
+            <div class="col-md-9">
+                <a href="{{x.portfolio}}" >{{x.name}}</a><br/>
+                <span >Slack: ({{x.name}})</span>
+                <br/>
+                <span >Available Timings: 10AM - 8PM</span>
+
+                <br/>
+                <span >Description Here!</span>
+            </div>
+        </div>
+</div>
+    </div>
 </section>
 
 <footer class="bg-light-gray">

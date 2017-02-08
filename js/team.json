@@ -139,7 +139,7 @@
   "email": "#",
   "github": "#",
   "portfolio": "#",
-  "positions": [false,false,true],
+  "positions": [false,true,true],
   "judge": false,
   "tech_mentor": false}
 

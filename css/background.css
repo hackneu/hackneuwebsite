@@ -840,3 +840,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+
+.person_display {
+    padding-bottom: 20px;
+}
