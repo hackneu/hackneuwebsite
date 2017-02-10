@@ -84,6 +84,7 @@
   "email": "mailto:mahimkar.s@husky.neu.edu",
   "github": "#",
   "portfolio": "#",
+   "available": "Start of hackathon to end.",
   "positions": [false,true,false],
   "judge": false,
   "tech_mentor": true},
@@ -117,6 +118,7 @@
   "email": "mailto: Jahagirdar.ro@husky.NEU.edu",
   "github": "https://github.com/RohanJahagirdar",
   "portfolio": "http://www.rohanjahagirdar.me",
+   "available": "Feb 12, 2017 - 12am to 12pm",
   "positions": [false,true,false],
   "judge": false,
   "tech_mentor": true},
@@ -140,6 +142,7 @@
   "github": "#",
   "portfolio": "#",
   "positions": [false,true,false],
+  "available": "Feb 11, 2017 - 12pm to 2pm",
   "judge": false,
   "tech_mentor": false}
 
