@@ -76,6 +76,112 @@
 
 <div class="container">
     <h2 class="judge text-center">Information for hacking @HackNEU 2017</h2>
+
+    <div ng-controller="hacksController">
+        <div class="container">
+            <div class="text-center">
+                <h2>Technical mentors</h2>
+            </div>
+
+
+            <div class="team-container">
+
+                <div class="row">
+                    <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && !x.positions[2]" class="col-md-4 member-container-info">
+                        <a href="{{x.portfolio}}" target="_blank">
+                            <img ng-src="{{x.image}}" class="img-circle">
+                        </a>
+                        <h6 class="">{{x.name}}</h6>
+                        <label class="title">{{x.position}}</label>
+                        <label class="title"><i>Available: {{x.available}}</i></label>
+                        <div class="title"><a href="{{x.email}}">{{x.je}}</a></div>
+                        <div class="title"><a href="{{x.slack}}">Slack Username{{x.slack}}</a></div>
+                        <!-- <div class="title"><i>Description:</i> {{x.desc}}</div><br/>-->
+
+                    </div>
+
+                    <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && x.positions[2]" class="col-md-4 member-container-info">
+                        <a href="{{x.portfolio}}" target="_blank">
+                            <img ng-src="{{x.image}}" class="img-circle">
+                        </a>
+                        <div>
+                            <h6 class="">{{x.name}}</h6>
+                            <label class="title">{{x.position}}</label>
+                            <label class="title"><i>Available: {{x.available}}</i></label><br/>
+                            <div class="title"><a href="{{x.email}}">{{x.je}}</a></div>
+                            <div class="title"><a href="{{x.slack}}">Slack Username{{x.slack}}</a></div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <span id="info5">
+    <div class="container">
+        <div class="text-center">
+            <h2>Communication tools @HackNEU 2017</h2>
+        </div>
+        <br/>
+    <span class="text-center">
+        <p>Slack channel : <a href="https://team-hackneu.slack.com/messages/hackneu/" target="_blank">Slack for Team HackNEU</a>
+        </p>
+    </span>
+    </div>
+</span>
+
+    <span id="info3">
+    <div class="container">
+        <div class="text-center">
+            <h2>HARDWARE:</h2>
+        </div>
+        <span class="text-center">
+        <p>With the help of Boston AR meetup group, Google and Team Hack NEU we have been able to secure some Hardware:</p>
+        </span>
+        <span class="text-center">
+            <p>Hardware available: <a href="https://goo.gl/olcpVM">Click here</a>
+            </p>
+            <p>
+            Link to claim hardware: <a href="https://goo.gl/forms/RdCtW6pHdykPuhZp2">Click here</a>
+            </p>
+        </span>
+    </div>
+</span>
+
+    <span id="info2">
+    <div class="container">
+        <div class="text-center">
+            <h2>Dataset for Hacking</h2>
+        </div>
+    <span class="text-center">
+        <p>Northeastern University Dataset : <a href="http://library.northeastern.edu/" target="_blank">Link</a></p>
+    </span>
+    </div>
+</span>
+
+    <span id="info4">
+    <div class="container">
+        <div class="text-center">
+            <h2>API suggestions</h2>
+        </div>
+        <br/>
+    <span class="text-center">
+        <p>Some of the APIs you could use are: </p>
+        <ul class="list-inline">
+            <li><a href="https://www.clarifai.com/" target="_blank">Clarifai</a></li>
+            <li><a href="https://trello.com/" target="_blank">Trello</a></li>
+            <li><a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a></li>
+            <li><a href="http://www.zettajs.org/" target="_blank">Zetta</a></li>
+            <li><a href="https://wit.ai/" target="_blank">Wit.ai</a></li>
+        </ul>
+    </span>
+    </div>
+</span>
+
     <div id="info1">
 
 
@@ -83,11 +189,11 @@
 
 
 
-        <span class="col-md-11 text-center">
+
 
 
             <h2 class="text-center">Judging Criteria</h2>
-
+        <span class="col-md-11 text-center">
         <p>
             Let’s be honest, y’all can do better than Powerpoints. Which is why we rock with live DEMOS only! No exceptions. To win HackNEU 2017 hackathon, you will have to demo your product for at least 30 seconds, but no more than 4 minutes. Don’t worry if your project is still not 100% perfected. Projects will be judged based on the following criteria:
 
@@ -184,11 +290,11 @@
         <br/>
 
 
-
+        <h2 class="text-center">⁠⁠⁠SUBMISSIONS</h2>
         <span class="col-md-11">
 
 
-            <h2 class="text-center">⁠⁠⁠SUBMISSIONS</h2>
+
 
         <p class="text-center">
             All submissions will updated on <a href="https://hackneu2017.devpost.com/" target="_blank"> HackNEU 2017 Devpost</a> on 12 Feb 2017 between 12pm-1pm. <br>
@@ -216,110 +322,13 @@ For this Hackathon session participants are required to login to hackneu2017.dev
 
     </div>
 
-<span id="info2">
-    <div class="container">
-        <div class="text-center">
-            <h2>Dataset for Hacking</h2>
-        </div>
-    <span class="text-center">
-        <p>Northeastern University Dataset : <a href="http://library.northeastern.edu/" target="_blank">Link</a></p>
-    </span>
-    </div>
-</span>
 
-<span id="info3">
-    <div class="container">
-        <div class="text-center">
-            <h2>HARDWARE:</h2>
-        </div>
-        <span class="text-center">
-        <p>With the help of Boston AR meetup group, Google and Team Hack NEU we have been able to secure some Hardware:</p>
-        </span>
-        <span class="text-center">
-            <p>Hardware available: <a href="https://goo.gl/olcpVM">Click here</a>
-            </p>
-            <p>
-            Link to claim hardware: <a href="https://goo.gl/forms/RdCtW6pHdykPuhZp2">Click here</a>
-            </p>
-        </span>
-    </div>
-</span>
-<span id="info4">
-    <div class="container">
-        <div class="text-center">
-            <h2>API suggestions</h2>
-        </div>
-        <br/>
-    <span class="text-center">
-        <p>Some of the APIs you could use are: </p>
-        <ul class="list-inline">
-            <li><a href="https://www.clarifai.com/" target="_blank">Clarifai</a></li>
-            <li><a href="https://trello.com/" target="_blank">Trello</a></li>
-            <li><a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a></li>
-            <li><a href="http://www.zettajs.org/" target="_blank">Zetta</a></li>
-            <li><a href="https://wit.ai/" target="_blank">Wit.ai</a></li>
-        </ul>
-    </span>
-    </div>
-</span>
-<span id="info5">
-    <div class="container">
-        <div class="text-center">
-            <h2>Communication tools @HackNEU 2017</h2>
-        </div>
-        <br/>
-    <span class="text-center">
-        <p>Slack channel : <a href="https://team-hackneu.slack.com/messages/hackneu/" target="_blank">Slack for Team HackNEU</a>
-        </p>
-    </span>
-    </div>
-</span>
+
+
+
 </div>
 
 
-<div ng-controller="hacksController">
-    <div class="container">
-    <div class="text-center">
-        <h2>Technical mentors</h2>
-    </div>
-
-
-        <div class="team-container">
-
-            <div class="row">
-                <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && !x.positions[2]" class="col-md-4 member-container-info">
-                    <a href="{{x.portfolio}}" target="_blank">
-                        <img ng-src="{{x.image}}" class="img-circle">
-                    </a>
-                        <h6 class="">{{x.name}}</h6>
-                        <label class="title">{{x.position}}</label>
-                        <label class="title"><i>Available: {{x.available}}</i></label>
-                    <div class="title"><a href="{{x.email}}">{{x.je}}</a></div>
-                    <div class="title"><a href="{{x.slack}}">Slack Username{{x.slack}}</a></div>
-                       <!-- <div class="title"><i>Description:</i> {{x.desc}}</div><br/>-->
-
-                    </div>
-
-                <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && x.positions[2]" class="col-md-4 member-container-info">
-                    <a href="{{x.portfolio}}" target="_blank">
-                        <img ng-src="{{x.image}}" class="img-circle">
-                    </a>
-                    <div>
-                        <h6 class="">{{x.name}}</h6>
-                        <label class="title">{{x.position}}</label>
-                        <label class="title"><i>Available: {{x.available}}</i></label><br/>
-                        <div class="title"><a href="{{x.email}}">{{x.je}}</a></div>
-                        <div class="title"><a href="{{x.slack}}">Slack Username{{x.slack}}</a></div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-</div>
 
 <footer class="bg-light-gray">
     <div class="container">
