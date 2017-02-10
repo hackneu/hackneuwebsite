@@ -21,6 +21,11 @@ body {
 .text-primary {
   color: #ba0d0d;
 }
+
+.judge{
+  margin-top: 70px;
+}
+
 p {
   font-size: 14px;
   line-height: 1.75;

@@ -74,52 +74,107 @@
     <!-- /.container-fluid -->
 </nav>
 
-<section>
-    <span id="info1">
-        <div class="container">
-        <div class="text-center">
-            <h2>Judging Criteria</h2>
-        </div>
+<div class="container">
+    <div id="info1">
+
+
     <br/>
-    <div class="row">
-    <span class="col-lg-2"></span>
-        <span class="col-lg-8 text-center">
+
+
+
+        <span class="col-md-12 text-center">
+
+
+            <h2 class="text-center judge">Judging Criteria</h2>
+
+        <p>
+            Let’s be honest, y’all can do better than Powerpoints. Which is why we rock with live DEMOS only! No exceptions. To win HackNEU 2017 hackathon, you will have to demo your product for at least 30 seconds, but no more than 4 minutes. Don’t worry if your project is still not 100% perfected. Projects will be judged based on the following criteria:
+
+        </p>
             <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Innovative idea</a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Creativity</a>
                         </h4>
                     </div>
                     <div id="collapse1" class="panel-collapse collapse in">
-                        <div class="panel-body">Information Coming soon!</div>
+                        <div class="panel-body">How original is this solution?</div>
                     </div>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"> Goto Market </a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"> Impact </a>
                         </h4>
                     </div>
                     <div id="collapse2" class="panel-collapse collapse in">
-                        <div class="panel-body">Information Coming soon!</div>
+                        <div class="panel-body">How impactful will this solution be for its target audience?</div>
                     </div>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"> Vision </a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"> Scalability </a>
                         </h4>
                     </div>
                     <div id="collapse3" class="panel-collapse collapse in">
-                        <div class="panel-body">Information Coming soon!</div>
+                        <div class="panel-body">Is your project scalable?</div>
                     </div>
                 </div>
+                                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"> Design(UI/UX) </a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse in">
+                        <div class="panel-body">How well designed is this solution, from front end to UI/UX?</div>
+                    </div>
+                </div>
+                                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"> Execution </a>
+                        </h4>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse in">
+                        <div class="panel-body">How well executed is this solution from start to finish?</div>
+                    </div>
+                </div>
+                <br/>
+                <div class="text-center">
+                    <h5>Additional points for</h5>
+                </div>
+                <br/>
+
+                                                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"> Goto Market </a>
+                        </h4>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse in">
+                        <div class="panel-body">Do you have a business and marketing model for the project?</div>
+                    </div>
+                </div>
+                                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7"> Social impact </a>
+                        </h4>
+                    </div>
+                    <div id="collapse7" class="panel-collapse collapse in">
+                        <div class="panel-body">Is your project creating a social impact?</div>
+                    </div>
+                </div>
+
             </div>
+
             </span>
-    </div>
+
+
 </div>
-</span>
 
 <span id="info2">
     <div class="container">
@@ -179,67 +234,55 @@
     </span>
     </div>
 </span>
-</section>
+</div>
 
 <div ng-controller="hacksController">
     <div class="container">
     <div class="text-center">
         <h2>Technical mentors</h2>
     </div>
-    <div class="person_display" ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && !x.positions[2]">
-        <div class="row">
-            <div class="col-md-3">
-                <img ng-src="{{x.image}}" alt="{{x.position}}"
-                                                     title="{{x.position}}" width="220" height="300">
-            </div>
-            <div class="col-md-9">
-                <a href="{{x.portfolio}}" >{{x.name}}</a>
-                <br/>
-                <span >Slack: ({{x.name}})</span>
-                <br/>
-                <span >Available Timings: {{x.available}}</span>
-                <br/>
-                <br/>
-                <span >Description Here!</span>
-            </div>
-        </div>
-</div>
-    <div class="person_display" ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && x.positions[2]">
-        <div class="row">
-            <div class="col-md-3">
-                <img ng-src="{{x.image}}" alt="{{x.position}}"
-                                                     title="{{x.position}}" width="220" height="300">
-            </div>
-            <div class="col-md-9">
-                <a href="{{x.portfolio}}" >{{x.name}}</a><br/>
-                <span >Slack: ({{x.name}})</span>
-                <br/>
-                <span >Available Timings: {{x.available}}</span>
 
-                <br/>
-                <span >Description Here!</span>
+
+        <div class="team-container">
+
+            <div class="row">
+                <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && !x.positions[2]" class="col-md-4 member-container">
+                    <a href="{{x.portfolio}}" target="_blank">
+                        <img ng-src="{{x.image}}" class="img-circle">
+                    </a>
+                        <h6 class="">{{x.name}}</h6>
+                        <label class="title"><i>Available: {{x.available}}</i></label><br/>
+                        <div class="title"><i>Description:</i> {{x.desc}}</div><br/>
+                        <div class="title"><a href="{{x.email}}">Email</a></div>
+                    </div>
+
+                <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && x.positions[2]" class="col-md-4 member-container">
+                    <a href="{{x.portfolio}}" target="_blank">
+                        <img ng-src="{{x.image}}" class="img-circle">
+                    </a>
+                    <div>
+                        <h6 class="">{{x.name}}</h6>
+                        <label class="title"><i>Available: {{x.available}}</i></label><br/>
+                        <div class="title"><a href="{{x.email}}">Email</a></div>
+
+                    </div>
+                </div>
             </div>
         </div>
-</div>
+
+
     </div>
 </div>
 
 <footer class="bg-light-gray">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <span class="copyright">Copyright &copy; Team HackNEU 2016-2017</span>  </div>
             <div class="col-md-4">
                 &nbsp;
             </div>
-            <div class="col-md-4">
-                <ul class="list-inline quicklinks">
-                    <li><a href="#">Privacy Policy</a>
-                    </li>
-                    <li><a href="#">Terms of Use</a>
-                    </li>
-                </ul>
-            </div>
+
         </div>
     </div>
 </footer>
