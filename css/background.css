@@ -15,6 +15,10 @@ body {
   color: red;
 }
 
+#mainNav{
+  font-size: 12px;
+}
+
 .text-muted {
   color: #777777;
 }
@@ -23,7 +27,7 @@ body {
 }
 
 .judge{
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 p {
@@ -760,6 +764,14 @@ body {
 
 .member-container{
   height: 260px;
+  width: 210px;
+  border: 2px solid indianred;
+  text-align: center;
+  overflow: hidden;
+}
+
+.member-container-info{
+  height: 270px;
   width: 210px;
   border: 2px solid indianred;
   text-align: center;
