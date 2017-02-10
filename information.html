@@ -82,10 +82,7 @@
             <div class="text-center">
                 <h2>Technical mentors</h2>
             </div>
-
-
             <div class="team-container">
-
                 <div class="row">
                     <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && !x.positions[2]" class="col-md-4 member-container-info">
                         <a href="{{x.portfolio}}" target="_blank">
@@ -95,11 +92,9 @@
                         <label class="title">{{x.position}}</label>
                         <label class="title"><i>Available: {{x.available}}</i></label>
                         <div class="title"><a href="{{x.email}}">{{x.je}}</a></div>
-                        <div class="title"><a href="{{x.slack}}">Slack Username{{x.slack}}</a></div>
+                        <div class="title"><a href="{{x.slack}}">Slack Username : {{x.slack}}</a></div>
                         <!-- <div class="title"><i>Description:</i> {{x.desc}}</div><br/>-->
-
                     </div>
-
                     <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && x.positions[2]" class="col-md-4 member-container-info">
                         <a href="{{x.portfolio}}" target="_blank">
                             <img ng-src="{{x.image}}" class="img-circle">
@@ -109,32 +104,32 @@
                             <label class="title">{{x.position}}</label>
                             <label class="title"><i>Available: {{x.available}}</i></label><br/>
                             <div class="title"><a href="{{x.email}}">{{x.je}}</a></div>
-                            <div class="title"><a href="{{x.slack}}">Slack Username{{x.slack}}</a></div>
-
-
+                            <div class="title"><a href="{{x.slack}}">Slack Username : {{x.slack}}</a></div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 
-    <span id="info5">
+<span id="info5">
     <div class="container">
         <div class="text-center">
             <h2>Communication tools @HackNEU 2017</h2>
         </div>
         <br/>
-    <span class="text-center">
+        <span class="text-center">
         <p>Slack channel : <a href="https://team-hackneu.slack.com/messages/hackneu/" target="_blank">Slack for Team HackNEU</a>
         </p>
-    </span>
+        </span>
+        <span class="text-center">
+        <p>Facebook group : <a href="https://www.facebook.com/groups/HackNEU2017attendees/" target="_blank">Facebook group for Team HackNEU</a>
+        </p>
+        </span>
     </div>
 </span>
 
-    <span id="info3">
+<span id="info3">
     <div class="container">
         <div class="text-center">
             <h2>HARDWARE:</h2>
@@ -182,22 +177,13 @@
     </div>
 </span>
 
-    <div id="info1">
-
-
-    <br/>
-
-
-
-
-
-
-            <h2 class="text-center">Judging Criteria</h2>
+<div id="info1">
+<br/>
+    <h2 class="text-center">Judging Criteria</h2>
         <span class="col-md-11 text-center">
-        <p>
+            <p>
             Let’s be honest, y’all can do better than Powerpoints. Which is why we rock with live DEMOS only! No exceptions. To win HackNEU 2017 hackathon, you will have to demo your product for at least 30 seconds, but no more than 4 minutes. Don’t worry if your project is still not 100% perfected. Projects will be judged based on the following criteria:
-
-        </p>
+            </p>
             <div class="col-md-4"></div>
             <div class="col-md-5 text-center panel-group" id="accordion">
                 <div class="panel panel-default">
@@ -255,8 +241,7 @@
                     <h5>Additional points for</h5>
                 </div>
                 <br/>
-
-                                                <div class="panel panel-default">
+                <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"> Goto Market </a>
@@ -266,7 +251,7 @@
                         <div class="panel-body">Do you have a business and marketing model for the project?</div>
                     </div>
                 </div>
-                                <div class="panel panel-default">
+                <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse7"> Social impact </a>
@@ -276,32 +261,17 @@
                         <div class="panel-body">Is your project creating a social impact?</div>
                     </div>
                 </div>
-
             </div>
-
-            </span>
-
-
-</div>
-
+        </span>
+    </div>
     <div id="info11">
-
-
         <br/>
-
-
         <h2 class="text-center">⁠⁠⁠SUBMISSIONS</h2>
         <span class="col-md-11">
-
-
-
-
         <p class="text-center">
             All submissions will updated on <a href="https://hackneu2017.devpost.com/" target="_blank"> HackNEU 2017 Devpost</a> on 12 Feb 2017 between 12pm-1pm. <br>
-For this Hackathon session participants are required to login to hackneu2017.devpost.com and submit project wise details for challenge/prize consideration by judges.
-
+            For this Hackathon session participants are required to login to hackneu2017.devpost.com and submit project wise details for challenge/prize consideration by judges.
         </p>
-
             <div class="">
                 <p class="text-center">Please submit following details in order to consider for valid submission:</p>
                 <div class="col-md-3"></div>
@@ -314,21 +284,10 @@ For this Hackathon session participants are required to login to hackneu2017.dev
                     <li>Challenges faced during project</li>
                     <li>Any additional information.</li>
                 </ul>
-
             </div>
-
             </span>
-
-
     </div>
-
-
-
-
-
 </div>
-
-
 
 <footer class="bg-light-gray">
     <div class="container">
