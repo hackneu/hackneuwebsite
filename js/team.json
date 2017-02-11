@@ -256,6 +256,20 @@
   "positions": [false,false,false],
 
   "judge": false,
+  "tech_mentor": false},
+    {"id": 22, "name": "Pavel Hradecky",
+  "image": "img/team/18.jpeg",
+  "position": "Technical Mentor - Healthcare Sector @ HackNEU",
+  "linkedin": "https://www.linkedin.com/in/pavelhradecky",
+  "twitter": "",
+  "email": "mailto:pavel.hrx@gmail.com",
+  "je": "",
+  "desc": "",
+  "github": "#",
+  "portfolio": "#",
+  "positions": [false,true,false],
+
+  "judge": false,
   "tech_mentor": false}
   
   
