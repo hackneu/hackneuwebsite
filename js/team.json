@@ -242,6 +242,20 @@
   "positions": [false,true,false],
 
   "judge": false,
+  "tech_mentor": false},
+  {"id": 21, "name": "Isha Srivastava",
+  "image": "img/team/17.png",
+  "position": "Master of Ceremony @ HackNEU",
+  "linkedin": "https://www.linkedin.com/in/ishasrivastava1",
+  "twitter": "",
+  "email": "mailto:srivastava.i@husky.neu.edu",
+  "je": "",
+  "desc": "",
+  "github": "#",
+  "portfolio": "#",
+  "positions": [false,false,false],
+
+  "judge": false,
   "tech_mentor": false}
   
   
