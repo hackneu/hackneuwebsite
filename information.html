@@ -92,8 +92,6 @@
                         <label class="title">{{x.position}}</label>
                         <label class="title"><i>Available: {{x.available}}</i></label>
                         <div class="title"><a href="{{x.email}}">{{x.je}}</a></div>
-                        <div class="title"><a href="{{x.slack}}">Slack Username : {{x.slack}}</a></div>
-                        <!-- <div class="title"><i>Description:</i> {{x.desc}}</div><br/>-->
                     </div>
                     <div ng-repeat="x in teamdata" ng-if="!x.positions[0] && x.positions[1] && x.positions[2]" class="col-md-4 member-container-info">
                         <a href="{{x.portfolio}}" target="_blank">
@@ -104,7 +102,6 @@
                             <label class="title">{{x.position}}</label>
                             <label class="title"><i>Available: {{x.available}}</i></label><br/>
                             <div class="title"><a href="{{x.email}}">{{x.je}}</a></div>
-                            <div class="title"><a href="{{x.slack}}">Slack Username : {{x.slack}}</a></div>
                         </div>
                     </div>
                 </div>
